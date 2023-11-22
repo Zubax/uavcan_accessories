@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -935,12 +935,26 @@
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A5L-LOC" device=""/>
 <part name="CON1" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-4P-TABS" device="-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" technology="-JST_GH"/>
 <part name="CON2" library="Connectors" library_urn="urn:adsk.eagle:library:3750510" deviceset="CON-4P-TABS" device="-RA" package3d_urn="urn:adsk.eagle:package:1040150/6" technology="-JST_GH"/>
-<part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%"/>
+<part name="R1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%">
+<attribute name="DIGIKEY#" value="311-121DCT-ND"/>
+<attribute name="MANF" value="YAGEO"/>
+<attribute name="MANF#" value="RT0603DRD07121RL"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+<attribute name="TOLERANCE" value="0.5%"/>
+</part>
 <part name="SJ1" library="misc" library_urn="urn:adsk.eagle:library:5347860" deviceset="SOLDER_JOINT" device="" package3d_urn="urn:adsk.eagle:package:20998874/1"/>
 <part name="LED1" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="LED" device="-0603" package3d_urn="urn:adsk.eagle:package:2539471/2">
 <attribute name="COLOR" value="red"/>
+<attribute name="DIGIKEY#" value="511-1587-1-ND"/>
+<attribute name="MANF" value="Rohm Semiconductor"/>
+<attribute name="MANF#" value="SML-E12V8WT86"/>
 </part>
-<part name="R2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%"/>
+<part name="R2" library="rc" library_urn="urn:adsk.eagle:library:2539423" deviceset="R" device="-0603" package3d_urn="urn:adsk.eagle:package:2539454/2" technology="-1%">
+<attribute name="DIGIKEY#" value="RHM200ADCT-ND"/>
+<attribute name="MANF" value="Rohm Semiconductor"/>
+<attribute name="MANF#" value="ESR03EZPF2000"/>
+<attribute name="OPERATING_TEMP" value="-55°C ~ 155°C"/>
+</part>
 </parts>
 <sheets>
 <sheet>
